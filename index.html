@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Git Pages</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/49cd651f5c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--container-->
+<!--loader-->
+<div class="container-loader">
+    <div class="loader"></div>
+</div>
+<!--form-->
+<div class="container-form ">
+    <div class="form">
+        <h1 class="form-title">Enter your username in Git Hub</h1>
+        <input class="form-input" placeholder="Your username">
+        <button class="form-button">Enter</button>
+    </div>
+</div>
+<!--error information-->
+<div class="container-error hide">
+    <div class="error-block">
+        <div class="error-text">Error code</div>
+    </div>
+</div>
+<!--main-->
+<main>
+<!--    sidebar-->
+    <section class="sidebar">
+        <img src="img/gigachad.jpg" alt="my photo" width="250px" class="img-profile" onclick="location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley';">
+        <h2 class="name center-div"><i class="fa-solid fa-square-person-confined"></i><span id="name"></span></h2>
+        <a class="git-page-url center-div"><i class="fa-brands fa-github"></i>My Git Profile</a>
+        <div class="date-create-git center-div">Date create: <span id="date-create-git"></span></div>
+        <div class="how-much-repo center-div">Repositories: <span class="amount-repos"></span></div>
+        <div class="last-commit center-div">Last commit: <span class="date-last-commit"></span></div>
+        <address class="contacts">
+            <a href="mailto:pr@dtek.com" class="mail"><i class="fa-solid fa-envelope"></i><span class="mail-span">pr@dtek.com</span></a>
+<!--            <a href="tel:044 581 4539" class="tell"><i class="fa-solid fa-phone"></i>044 581 4539</a>-->
+        </address>
+    </section>
+<!--    Repos-->
+    <section class="repos">
+        <h1 class="repos-title">My GitHub Profile</h1>
+        <div class="container-repos">
+            <ul class="list-repos">
+
+            </ul>
+        </div>
+    </section>
+</main>
+<!--add js-->
+<script src="index.js"></script>
+</body>
+</html>
